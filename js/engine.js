@@ -107,6 +107,7 @@ var Engine = (function(global) {
         /* This array holds the relative URL to the image used
          * for that particular row of the game level.
          */
+         //ctx.strokeText(player.score,0,10);
         var rowImages = [
                 'images/water-block.png',   // Top row is water
                 'images/stone-block.png',   // Row 1 of 3 of stone
@@ -152,6 +153,8 @@ var Engine = (function(global) {
         });
 
         player.render();
+
+        //ctx.strokeText("player.score",1,10);
     }
 
     /* This function does nothing but it could have been a good place to

@@ -1,0 +1,4 @@
+1-edit app.js to build the game.
+2- remember that in canvas the position 0,0 is on the top left.
+so don't forget.
+that changes the how we handle input keys.
